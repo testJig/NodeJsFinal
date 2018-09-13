@@ -1,17 +1,17 @@
 {
-  "name": "server",
+  "name": "demonodeproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "writing first node app",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+	"socket.io": "1.3.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3",
-    "socket.io": "^2.1.1"
-  }
+  "author": "sanath",
+  "license": "ISC"
 }
